@@ -8,6 +8,7 @@ The PSU_Bank_db is a comprehensive relational database designed to simulate the 
 #### •Cards: managing both credit and debit card details including usage limits and validity.
 
 ## Objectives
+To optimize banking services and mitigate risks through data-driven customer profiling and transaction pattern analysis.
 ## Database Creation
 ``` sql
 CREATE DATABASE PSU_Bank_db;
