@@ -1,5 +1,12 @@
 # PSU Bank
 ## Overview
+The PSU_Bank_db is a comprehensive relational database designed to simulate the core operations of a PSU banking system. It consists of interrelated tables representing essential entities such as:
+#### •Customers: holding personal and KYC-related information.
+#### •Accounts: detailing account types, balances, statuses, and interest rates.
+#### •Transactions: recording all financial activities with timestamps and contextual descriptions.
+#### •Loans: maintaining information about different loan products, EMIs, and repayment statuses.
+#### •Cards: managing both credit and debit card details including usage limits and validity.
+
 ## Objectives
 ## Database Creation
 ``` sql
@@ -295,3 +302,13 @@ WHERE
         t.amount LIKE '%000.00'
     AND HOUR(t.transaction_date) IN (23,24,1,2,3,4,5,6);
 ```
+
+## Conclusion
+The PSU_Bank_db project successfully demonstrates the design and analytical capabilities of a relational database tailored for banking operations. It not only supports transactional integrity and customer lifecycle tracking but also enables strategic insights through data analysis.
+With features like:
+#### •Identifying high-risk customers,
+#### •Monitoring account and loan performance,
+#### •Detecting fraudulent or unusual transactions, and
+#### •Evaluating financial health and operational efficiency,
+this database structure lays a strong foundation for decision-making in banking environments. It can be extended further with modules for branch management, employee handling, digital banking logs, or regulatory reporting to make it production-ready for real-world applications.
+
