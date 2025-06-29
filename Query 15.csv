@@ -1,0 +1,4 @@
+customer_id,Total_emi,Total_salary,debt_to_income_ratio
+CUST1001,342216.00,20000.00,17.11
+CUST1003,22500.00,0.00,NULL
+CUST1005,100000.00,0.00,NULL

@@ -1,0 +1,2 @@
+customer_id,first_name,last_name,email,phone,address,date_joined,credit_score,kyc_verified
+CUST1002,Priya,Sharma,priya.s@example.com,919876543211,"34 MG Road, Bangalore",2021-02-20,812,1

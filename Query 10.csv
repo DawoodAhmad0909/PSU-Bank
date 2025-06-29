@@ -1,0 +1,1 @@
+loan_id,customer_id,account_id,loan_type,amount,interest_rate,start_date,term_months,emi,remaining_balance,status
