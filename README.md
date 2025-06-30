@@ -178,7 +178,7 @@ SELECT a.account_id , COUNT(CASE WHEN LOWER(t.transaction_type)='withdrawal' AND
 FROM accounts a 
 JOIN transactions t 
 ON t.account_id=a.account_id
-WHERE LOWER(t.description) LIKE '%salary'
+WHERE LOWER(t.description) LIKE '%salary%'
 GROUP BY a.account_id
 HAVING  atm_withrawals>2;
 ```
